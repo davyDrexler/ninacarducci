@@ -82,7 +82,7 @@
     },
     responsiveImageItem(element) {
       if (element.prop("tagName") === "IMG") {
-        element.addClass("img-fluid").attr("loading", "lazy");
+        element.addClass("img-fluid");
       }
     },
     openLightBox(element, lightboxId) {
